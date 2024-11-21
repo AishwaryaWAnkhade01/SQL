@@ -11,7 +11,7 @@ This project is a sample SQL database designed to manage an e-commerce platform,
 - **OrderDetails**: Link orders to the products they contain.
 
 ## ER Diagram
-![ER Diagram](diagrams/er_diagram.png)
+![ER Diagram]([diagrams/er_diagram.png](https://github.com/AishwaryaWAnkhade01/SQL/blob/main/E-Commerece.png))
 
 ## Installation
 1. Clone the repository.
