@@ -1,0 +1,21 @@
+## Project Title: DDL Commands Practice
+
+### 📋 Description
+This project contains SQL scripts and examples demonstrating the usage of Data Definition Language (DDL) commands. It includes commands such as `CREATE`, `ALTER`, `DROP`, and `TRUNCATE`.
+
+---
+
+### 🗂️ Project Contents
+1. **SQL Scripts**: Files showcasing examples of DDL commands.
+2. **ER Diagram** (if applicable): A visualization of the database structure.
+3. **README**: This file, explaining the project structure.
+
+---
+
+### 🔧 Technologies Used
+- ***Database***: MySQL / PostgreSQL / Any other DBMS you used
+- ***Tools***: 
+  - SQL Workbench
+  - MySQL CLI
+
+---
