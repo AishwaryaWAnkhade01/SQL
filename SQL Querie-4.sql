@@ -208,8 +208,33 @@ select * from books where title like '%guide%';
 
 select * from products where productname like  '_a%' ;
 select * from cities where length(cityname)<=5;
+ select * from employees where department like 'h%';
+ select * from cities where length (cityname)=7;
+ select * from books where title  like '%s';
  
+-- 5. IN Questions
+-- Retrieve all orders from the orders table where the status is either 'shipped', 'processing', or 'pending'.
+-- Select all employees who belong to the departments 'HR', 'Finance', or 'IT'.
+-- Find all students from the students table who are in grades 8, 9, or 10.
+-- Retrieve all products from the products table where the category is 'Electronics', 'Furniture', or 'Books'.
+-- Display all cities from the cities table where the city name is either 'New York', 'Los Angeles', or 'Chicago'.
+
+select * from orders where status in  ('shipped','procrssing'or 'pending');
+select * from employees where department in ('HR', 'Finance', 'IT');
+select * from students where grade in (8, 9, 10);
+select * from products where category in ('Electronics', 'Furniture',  'Books');
+select * from cities where cityname in  ('New York', 'Los Angeles', 'Chicago');
+
+-- 6. BETWEEN Questions
+-- Retrieve all employees with salaries between 50,000 and 100,000.
+-- Select all orders from the orders table where the orderdate is between '2023-01-01' and '2023-12-31'.
+-- Find all products where the price is between 100 and 500.
+-- Display all students from the students table whose marks are between 60 and 90.
+-- Select all books from the books table published between 2015 and 2020.
 
 
-
-
+Select * from employees where salary between '50000'  and '100000';
+select * from orders where orderdate between '2023-01-01' and '2023-12-31';
+select * from products where price between '100' and '500';
+select * from students where marks between '60' and '90';
+select * from books where publishedyear between '2015' and '2020';
